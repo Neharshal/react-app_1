@@ -3,7 +3,7 @@ import HeaderPage from "./headerPage";
 import Footerpage from "./footerPage";
 
 
-function LayouPage({ children }) {
+function LayoutPage({ children }) {
 
     return (
         <>
@@ -16,4 +16,4 @@ function LayouPage({ children }) {
     )
 }
 
-export default LayouPage;
+export default LayoutPage;

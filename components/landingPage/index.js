@@ -1,13 +1,20 @@
 import React from "react";
+import HeaderPage from "../Layout/headerPage";
 
-function LandinPage()
+function LandingPage()
 {
-
-    return(
-<div>
-    This is the Landin Page of the website
+return <div>
+    This is the LandingPage of the website
 </div>
 
-    )
+  
+return (
+    <HeaderPage title ={HEAD_TITLES.home}>
+       <div>
+    This is the LandingPage of the website
+</div>
+
+    </HeaderPage>
+)
 }
-export default LandinPage;
+export default LandingPage;
