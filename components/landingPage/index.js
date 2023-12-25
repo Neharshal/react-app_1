@@ -1,20 +1,16 @@
 import React from "react";
+
 import HeaderPage from "../Layout/headerPage";
+import TopSection from "./topSection";
 
-function LandingPage()
-{
-return <div>
-    This is the LandingPage of the website
-</div>
+function LandingPage() {
+    return (
+        <HeaderPage title={HEAD_TITLES.home}>
 
-  
-return (
-    <HeaderPage title ={HEAD_TITLES.home}>
-       <div>
-    This is the LandingPage of the website
-</div>
-
-    </HeaderPage>
-)
+            <main>
+                <TopSection />
+            </main>
+        </HeaderPage>
+    )
 }
 export default LandingPage;

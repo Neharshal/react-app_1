@@ -1,10 +1,8 @@
-import LandinPage from "@/components/landingPage";
+import LandingPage from "@/components/landingPage";
 import React from "react";
 
-function Home(){
-    return(
-        <LandinPage/>
-    )
+function Home() {
+  return <LandingPage />;
 }
 
 export default Home;

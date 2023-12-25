@@ -8,12 +8,11 @@ function LayoutPage({ children }) {
     return (
         <>
             <HeaderPage />
-
-            {children}
+             {children}
             <Footerpage />
         </>
 
-    )
+    );
 }
 
 export default LayoutPage;
