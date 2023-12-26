@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-function NewStudentImg (){
+function NewStudentImg ({avatar}){
     return (
         <Image 
         className="avatar-img rounded-circle border-white"
