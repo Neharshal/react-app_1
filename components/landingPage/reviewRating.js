@@ -3,11 +3,10 @@ import React from "react";
 import {
   FaQuoteLeft,
   FaQuoteRight,
-  FaStar,
-  FaStarHalf,
-  FaStarHalfAlt,
+ 
 } from "react-icons/fa";
-import Ratings from "./rating";
+import { IoShieldCheckmark } from "react-icons/io5";
+import Ratings from "./ratings";
 
 function ReviewRating() {
   return (
@@ -54,14 +53,16 @@ function ReviewRating() {
               <div className="col-md-5 mt-5 mt-md-0 d-none d-md-block">
                 <div className="bg-body shadow p-4 rounded-3 d-inline-block position-relative">
                   <div className="icon-lg bg-warning rounded-circle position-absolute top-0 start-100 translate-middle">
-                    <i className="bi bi-shield-fill-check text-dark"></i>
+                    <i className="bi bi-shield-fill-check text-dark">
+                    <IoShieldCheckmark />
+                    </i>
                   </div>
                   <h6 className="mb-3">100+ Verified Mentors</h6>
                   <div className="d-flex align-items-center mb-3">
                     <div className="avatar avatar-sm">
                       <Image
                         className="avatar-img rounded-1"
-                        src="/assets/images/avatar/09.jpg"
+                        src="/assets/images/avatar/05.jpg"
                         alt="avatar"
                         height={100}
                         width={100}
@@ -75,10 +76,12 @@ function ReviewRating() {
 
                   <div className="d-flex align-items-center mb-3">
                     <div className="avatar avatar-sm">
-                      <img
+                      <Image
                         className="avatar-img rounded-1"
-                        src="assets/images/avatar/04.jpg"
+                        src="/assets/images/avatar/04.jpg"
                         alt="avatar"
+                        height={100}
+                        width={100}
                       />
                     </div>
                     <div className="ms-2">
@@ -89,10 +92,12 @@ function ReviewRating() {
 
                   <div className="d-flex align-items-center">
                     <div className="avatar avatar-sm">
-                      <img
+                      <Image
                         className="avatar-img rounded-1"
-                        src="assets/images/avatar/02.jpg"
+                        src="/assets/images/avatar/02.jpg"
                         alt="avatar"
+                        height={100}
+                        width={100}
                       />
                     </div>
                     <div className="ms-2">
@@ -184,12 +189,14 @@ function ReviewRating() {
                   <blockquote>
                     <p>
                       <span className="me-1 small">
+                      <FaQuoteLeft />
                         <i className="fas fa-quote-left"></i>
                       </span>
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                       Tempore molestiae ex expedita?
                       <span className="ms-1 small">
                         <i className="fas fa-quote-right"></i>
+                        <FaQuoteRight />
                       </span>
                     </p>
                   </blockquote>

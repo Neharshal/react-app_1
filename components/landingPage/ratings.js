@@ -1,5 +1,5 @@
 import React from "react";
-//import { FaStar, FaStarHalfAlt } from "react-icons/fa";
+import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 import Rating from "./rating";
 
 function Ratings({ stars }) {

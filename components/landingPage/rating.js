@@ -1,7 +1,6 @@
 import React from "react";
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 
-
 function Rating({ ratingObj }) {
   return (
     <li className="list-inline-item me-1 small">

@@ -8,11 +8,12 @@ import NewStudentImg from "./newStudentImg";
 import DotSvg from "./dotSvg";
 
 
+
 function TopSection() {
   return (
     <section className="position-relative overflow-hidden pt-5 pt-lg-3">
-      <DotSvg />
-
+      
+<DotSvg/>
       <div className="container">
         <div className="row align-items-center g-5">
           <div className="col-lg-5 col-xl-6 position-relative z-index-1 text-center text-lg-start mb-5 mb-sm-0">
@@ -92,18 +93,18 @@ function TopSection() {
 
           <div className="col-lg-7 col-xl-6 text-center position-relative">
             <figure className="position-absolute bottom-0 start-50 translate-middle-x mt-4 mb-0">
-              {/* <svg
+               <svg
             width="550px"
             height="538px"
             viewBox="0 0 554 544"
-            style="enableBackground: new 0 0 554 544"
-            xml:space="preserve"
+          style={{enableBackground: " new 0 0 554 544"}}
+          
           >
             <path
               className="fill-primary"
               d="M423.3,77.2c49.5,32.5,100.4,67.2,118.4,114.5s3.5,107.1-15.4,165.7c-18.7,58.6-41.8,116.1-84,148.6 c-42.5,32.8-104.2,40.2-163.8,37.3c-59.5-3.2-116.8-17.1-164.7-47.9c-48.3-30.6-87.2-78.2-102-131.6C-3,310.5,6.6,251,25.3,194.7 C43.6,138,70.7,84.3,114.1,49.5C157.2,14.8,216.7-1,270.8,6.4C324.8,14.2,373.4,44.7,423.3,77.2z"
             />
-          </svg> */}
+          </svg> 
             </figure>
 
             <figure className="position-absolute bottom-0 start-50 translate-middle-x mb-n5 z-index-9">
@@ -135,11 +136,11 @@ function TopSection() {
             </figure>
 
             <div className="p-2 bg-white shadow rounded-3 position-absolute top-50 start-0 translate-middle-y mt-n7 d-none d-sm-block">
-              <Image src="assets/images/client/science.svg" alt="Icon" 
-              height ={50} width={50}/>
+              <img src="/assets/images/client/science.svg" alt="Icon" 
+              />
             </div>
             <div className="p-2 bg-white shadow rounded-3 position-absolute top-0 end-0 me-5">
-              <img src="assets/images/client/angular.svg" alt="Icon" />
+              <img src="/assets/images/client/angular.svg" alt="Icon" />
             </div>
             <div className="p-2 bg-white shadow rounded-3 position-absolute top-50 end-0 translate-middle-y mt-5 ms-5 d-none d-lg-block z-index-9">
               <img src="assets/images/client/figma.svg" alt="Icon" />
@@ -167,11 +168,11 @@ function TopSection() {
 
             <div
               className="p-3 bg-success d-inline-block rounded-4 shadow-lg position-absolute top-50 end-0 translate-middle-y mt-n7 z-index-1 d-none d-md-block"
-              //   style="
-              //   background: url(assets/images/pattern/01.png) no-repeat center
-              //     center;
-              //   background-size: cover;
-              // "
+                style={{ background: "url(assets/images/pattern/01.png) no-repeat center",
+                
+                backgroundSize: "cover"}}
+               
+              
             >
               <p className="text-white">Our daily new students</p>
 
@@ -206,7 +207,7 @@ function TopSection() {
             </div>
 
             <div className="position-relative">
-              <img src="assets/images/element/07.png" alt="" />
+              <img src="/assets/images/element/07.png" alt="blank"/>
             </div>
           </div>
         </div>

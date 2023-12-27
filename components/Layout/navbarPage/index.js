@@ -13,9 +13,10 @@ function NavbarPage() {
       <Container fluid className="px-3 px-xl-5">
         <Navbar.Brand href="#">
           <Image
-            src="/assets/images/logo.png"
-            width={100}
+            src="/assets/images/logo.jpeg"
+            width={50}
             height={50}
+            className="rounded float-start"
             alt="logo"
           />
         </Navbar.Brand>
