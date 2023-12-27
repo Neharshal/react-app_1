@@ -3,18 +3,18 @@ import React from "react";
 import HeadPage from "../Layout/headPage";
 import HEAD_TITLES from "@/utils/constants/titleConstants";
 import TopSection from "./topSection";
-// import CounterSections from "./counterSections";
-// import BecomeAnInstructor from "./becomeAnInstructor";
-// import ReviewRating from "./reviewRating";
+import CounterSections from "./counterSections";
+import BecomeAnInstructor from "./becomeAnInstructor";
+import ReviewRating from "./reviewRating";
 
 function LandingPage() {
   return (
     <HeadPage title={HEAD_TITLES.home}>
       <main>
         <TopSection />
-        {/* <CounterSections />
+        <CounterSections />
         <BecomeAnInstructor />
-        <ReviewRating /> */}
+        <ReviewRating /> 
       </main>
     </HeadPage>
   );
