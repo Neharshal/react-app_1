@@ -3,6 +3,11 @@ import HeadPage from "../Layout/headPage";
 import HEAD_TITLES from "@/utils/constants/titleConstants";
 import styles from "./styles.module.css";
 import { Button, Form } from "react-bootstrap";
+import { FaLock } from "react-icons/fa";
+import { FaArrowLeft , FaArrowRight} from "react-icons/fa6";
+import Link from "next/link";
+
+ 
 
 function Login() {
   return (
@@ -70,19 +75,21 @@ function Login() {
                         <Button
                           type="submit"
                           className="btn w-100 bg-primary bg-opacity-50 py-3 text-white me-2 mb-4 mb-sm-0"
-                        >
-                          Login &gt;&gt;
+                       > <FaLock />
+                          
+                           Login
+                           
                         </Button>
                       </div>
 
                       <div className="col-12 mt-4 d-flex justify-content-between">
-                        <a href="./index.html">
-                          <i className="fa fa-arrow-left"></i> back
-                        </a>
-                        <a href="signup.html">
+                        <Link href="/./home/">
+                        <FaArrowLeft />back
+                        </Link>
+                        <Link href="/./singUp">
                           {" "}
-                          Singup <i className="fa fa-arrow-right"></i>
-                        </a>
+                          Singup <FaArrowRight />
+                        </Link>
                       </div>
                     </div>
                   </div>
